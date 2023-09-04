@@ -15,7 +15,9 @@ const Navbar = () => {
         <h2>History</h2>
         <h2>Help</h2>
       </div>
-      <UserButton afterSignOutUrl="/" />
+      <div className="px-3">
+        <UserButton afterSignOutUrl="/" />
+      </div>
     </div>
   );
 };
